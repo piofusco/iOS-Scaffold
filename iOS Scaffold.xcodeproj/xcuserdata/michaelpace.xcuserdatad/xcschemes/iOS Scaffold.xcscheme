@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF2CEAD439645D3D898646B1"
+               BuildableName = "iOS Scaffold.app"
+               BlueprintName = "iOS Scaffold"
+               ReferencedContainer = "container:iOS Scaffold.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DF2CEAD439645D3D898646B1"
+            BuildableName = "iOS Scaffold.app"
+            BlueprintName = "iOS Scaffold"
+            ReferencedContainer = "container:iOS Scaffold.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
