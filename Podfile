@@ -14,7 +14,7 @@ target 'iOS ScaffoldTests' do
   testing_pods
 end
 
-target 'iOS ScaffoldUITests' do
+target 'UITests' do
   use_frameworks!
   testing_pods
 end

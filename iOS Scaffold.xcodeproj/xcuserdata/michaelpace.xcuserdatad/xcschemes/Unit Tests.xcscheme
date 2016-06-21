@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF2CEAD439645D3D898646B1"
-               BuildableName = "iOS Scaffold.app"
-               BlueprintName = "iOS Scaffold"
+               BlueprintIdentifier = "DF2CE56A15F2A4CD63CA9BBE"
+               BuildableName = "iOS ScaffoldTests.xctest"
+               BlueprintName = "iOS ScaffoldTests"
                ReferencedContainer = "container:iOS Scaffold.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF2CE1998482FA01A805F529"
-               BuildableName = "iOS ScaffoldUITests.xctest"
-               BlueprintName = "iOS ScaffoldUITests"
+               BlueprintIdentifier = "DF2CE56A15F2A4CD63CA9BBE"
+               BuildableName = "iOS ScaffoldTests.xctest"
+               BlueprintName = "iOS ScaffoldTests"
                ReferencedContainer = "container:iOS Scaffold.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF2CE56A15F2A4CD63CA9BBE"
-               BuildableName = "iOS ScaffoldTests.xctest"
-               BlueprintName = "iOS ScaffoldTests"
+               BlueprintIdentifier = "DF2CE1998482FA01A805F529"
+               BuildableName = "iOS ScaffoldUITests.xctest"
+               BlueprintName = "iOS ScaffoldUITests"
                ReferencedContainer = "container:iOS Scaffold.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -62,9 +62,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF2CEAD439645D3D898646B1"
-            BuildableName = "iOS Scaffold.app"
-            BlueprintName = "iOS Scaffold"
+            BlueprintIdentifier = "DF2CE56A15F2A4CD63CA9BBE"
+            BuildableName = "iOS ScaffoldTests.xctest"
+            BlueprintName = "iOS ScaffoldTests"
             ReferencedContainer = "container:iOS Scaffold.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,16 +81,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF2CEAD439645D3D898646B1"
-            BuildableName = "iOS Scaffold.app"
-            BlueprintName = "iOS Scaffold"
+            BlueprintIdentifier = "DF2CE56A15F2A4CD63CA9BBE"
+            BuildableName = "iOS ScaffoldTests.xctest"
+            BlueprintName = "iOS ScaffoldTests"
             ReferencedContainer = "container:iOS Scaffold.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -103,9 +102,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF2CEAD439645D3D898646B1"
-            BuildableName = "iOS Scaffold.app"
-            BlueprintName = "iOS Scaffold"
+            BlueprintIdentifier = "DF2CE56A15F2A4CD63CA9BBE"
+            BuildableName = "iOS ScaffoldTests.xctest"
+            BlueprintName = "iOS ScaffoldTests"
             ReferencedContainer = "container:iOS Scaffold.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
