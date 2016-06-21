@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275B56D68FD3380168C178A7 /* Pods_iOS_Scaffold.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622FE0E557B68E012EA23C5D /* Pods_iOS_Scaffold.framework */; };
+		27D507881B8D68307BC93098 /* Pods_iOS_ScaffoldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC932A6977A0513ADCE5FF2 /* Pods_iOS_ScaffoldUITests.framework */; };
+		8CF280C67BE669416F82A1DC /* Pods_iOS_ScaffoldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9707655EA378B0DF52A4E418 /* Pods_iOS_ScaffoldTests.framework */; };
 		DF2CE0ECB2D616CAAAEB27BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2CE31566433451034E19A1 /* Assets.xcassets */; };
 		DF2CE1B2DB34028013B54C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2CEF36437C78DE88615613 /* LaunchScreen.storyboard */; };
 		DF2CE2D396D6FD0ED551FE52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2CEE05E34FA1715AAB5939 /* Info.plist */; };
@@ -37,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21BDF0D1CDC179E3A2B17CBA /* Pods-iOS ScaffoldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ScaffoldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ScaffoldTests/Pods-iOS ScaffoldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61BB1AA8DC10CFABDBC943E5 /* Pods-iOS Scaffold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Scaffold.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Scaffold/Pods-iOS Scaffold.debug.xcconfig"; sourceTree = "<group>"; };
+		622FE0E557B68E012EA23C5D /* Pods_iOS_Scaffold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Scaffold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC932A6977A0513ADCE5FF2 /* Pods_iOS_ScaffoldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ScaffoldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707655EA378B0DF52A4E418 /* Pods_iOS_ScaffoldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ScaffoldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63EBE3FF4A861D871530F7D /* Pods-iOS ScaffoldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ScaffoldUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ScaffoldUITests/Pods-iOS ScaffoldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD2B626F9CBAE16BBE1E3B9A /* Pods-iOS ScaffoldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ScaffoldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ScaffoldTests/Pods-iOS ScaffoldTests.release.xcconfig"; sourceTree = "<group>"; };
 		DF2CE004246151F8E397EA34 /* iOS ScaffoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS ScaffoldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2CE2E65BE56FB1E8AD7958 /* iOS_ScaffoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ScaffoldTests.swift; sourceTree = "<group>"; };
 		DF2CE31566433451034E19A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +60,8 @@
 		DF2CECC7E859AF1270F789FC /* iOS_ScaffoldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ScaffoldUITests.swift; sourceTree = "<group>"; };
 		DF2CEDA4EEF300E78E480DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		DF2CEE05E34FA1715AAB5939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EAB7458842A1F5E6C075D844 /* Pods-iOS ScaffoldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ScaffoldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ScaffoldUITests/Pods-iOS ScaffoldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE6BD6B0551737AF39E42AB /* Pods-iOS Scaffold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Scaffold.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Scaffold/Pods-iOS Scaffold.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275B56D68FD3380168C178A7 /* Pods_iOS_Scaffold.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF280C67BE669416F82A1DC /* Pods_iOS_ScaffoldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D507881B8D68307BC93098 /* Pods_iOS_ScaffoldUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		114762AFABB36EE485A0D544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61BB1AA8DC10CFABDBC943E5 /* Pods-iOS Scaffold.debug.xcconfig */,
+				FEE6BD6B0551737AF39E42AB /* Pods-iOS Scaffold.release.xcconfig */,
+				21BDF0D1CDC179E3A2B17CBA /* Pods-iOS ScaffoldTests.debug.xcconfig */,
+				AD2B626F9CBAE16BBE1E3B9A /* Pods-iOS ScaffoldTests.release.xcconfig */,
+				EAB7458842A1F5E6C075D844 /* Pods-iOS ScaffoldUITests.debug.xcconfig */,
+				A63EBE3FF4A861D871530F7D /* Pods-iOS ScaffoldUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1862CF131B8103C6577031F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				622FE0E557B68E012EA23C5D /* Pods_iOS_Scaffold.framework */,
+				9707655EA378B0DF52A4E418 /* Pods_iOS_ScaffoldTests.framework */,
+				7DC932A6977A0513ADCE5FF2 /* Pods_iOS_ScaffoldUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF2CE38D180CA8086479FCCB = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +122,8 @@
 				DF2CEF87C3DE2AEB64B73576 /* iOS Scaffold */,
 				DF2CEFE6A04D03BAF73C6C34 /* iOS ScaffoldTests */,
 				DF2CEFA5205ABCE55AA21CD7 /* iOS ScaffoldUITests */,
+				114762AFABB36EE485A0D544 /* Pods */,
+				C1862CF131B8103C6577031F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF2CE9B5EDC67E74DA589FC9 /* Build configuration list for PBXNativeTarget "iOS ScaffoldUITests" */;
 			buildPhases = (
+				042E854B4E4328298E883EE3 /* [CP] Check Pods Manifest.lock */,
 				DF2CE6C5D47DD8FC3017ECAF /* Sources */,
 				DF2CEAD507E1D75289BDEF76 /* Frameworks */,
 				DF2CE6D877AA46A89FB2B2FC /* Resources */,
+				554E96A294537164AC74872E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF2CE6BBA3406A4C5F2CCE35 /* Build configuration list for PBXNativeTarget "iOS ScaffoldTests" */;
 			buildPhases = (
+				A1CC4D88E33822C086F4BC7F /* [CP] Check Pods Manifest.lock */,
 				DF2CE005E434FDA672ABF84F /* Sources */,
 				DF2CE4B3BCE7F0DE97E4A1D4 /* Frameworks */,
 				DF2CE09246F41C814DE827E9 /* Resources */,
+				E4BE599640D3F3D3578E8DC9 /* [CP] Embed Pods Frameworks */,
+				02FFABB43DA72F4FEBD82604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF2CE466184E4C1F716E3DF5 /* Build configuration list for PBXNativeTarget "iOS Scaffold" */;
 			buildPhases = (
+				90028587567E298AAB62F043 /* [CP] Check Pods Manifest.lock */,
 				DF2CEFC46DCD647D6B1E7437 /* Sources */,
 				DF2CE117AF9E3A75476B650B /* Frameworks */,
 				DF2CE90A83B2BED9E99896AB /* Resources */,
+				40F10EE2702618AEDEBEAC05 /* [CP] Embed Pods Frameworks */,
+				891A214FEFCF7B243E5601A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +289,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02FFABB43DA72F4FEBD82604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ScaffoldTests/Pods-iOS ScaffoldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		042E854B4E4328298E883EE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40F10EE2702618AEDEBEAC05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Scaffold/Pods-iOS Scaffold-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554E96A294537164AC74872E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ScaffoldUITests/Pods-iOS ScaffoldUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891A214FEFCF7B243E5601A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Scaffold/Pods-iOS Scaffold-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90028587567E298AAB62F043 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CC4D88E33822C086F4BC7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BE599640D3F3D3578E8DC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ScaffoldTests/Pods-iOS ScaffoldTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF2CE005E434FDA672ABF84F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -304,6 +475,7 @@
 /* Begin XCBuildConfiguration section */
 		DF2CE188948DCE20EDD4930A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BDF0D1CDC179E3A2B17CBA /* Pods-iOS ScaffoldTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Scaffold.app/iOS Scaffold";
 				INFOPLIST_FILE = "iOS ScaffoldTests/Info.plist";
@@ -316,6 +488,7 @@
 		};
 		DF2CE19B167980EFC3DB895E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE6BD6B0551737AF39E42AB /* Pods-iOS Scaffold.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Scaffold/Info.plist";
@@ -327,6 +500,7 @@
 		};
 		DF2CE59A9CA63687F7249907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63EBE3FF4A861D871530F7D /* Pods-iOS ScaffoldUITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Scaffold.app/iOS Scaffold";
 				INFOPLIST_FILE = "iOS ScaffoldUITests/Info.plist";
@@ -378,6 +552,7 @@
 		};
 		DF2CE6A6FB5DBF62C45B8CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB7458842A1F5E6C075D844 /* Pods-iOS ScaffoldUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Scaffold.app/iOS Scaffold";
 				INFOPLIST_FILE = "iOS ScaffoldUITests/Info.plist";
@@ -390,6 +565,7 @@
 		};
 		DF2CE6CA112ED1E2654AECF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2B626F9CBAE16BBE1E3B9A /* Pods-iOS ScaffoldTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Scaffold.app/iOS Scaffold";
 				INFOPLIST_FILE = "iOS ScaffoldTests/Info.plist";
@@ -448,6 +624,7 @@
 		};
 		DF2CE934A4C9DC80DB849048 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BB1AA8DC10CFABDBC943E5 /* Pods-iOS Scaffold.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Scaffold/Info.plist";
@@ -467,6 +644,7 @@
 				DF2CE19B167980EFC3DB895E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF2CE6BBA3406A4C5F2CCE35 /* Build configuration list for PBXNativeTarget "iOS ScaffoldTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +653,7 @@
 				DF2CE6CA112ED1E2654AECF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF2CE9B5EDC67E74DA589FC9 /* Build configuration list for PBXNativeTarget "iOS ScaffoldUITests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +662,7 @@
 				DF2CE59A9CA63687F7249907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF2CEE3D6331D2C048CCA598 /* Build configuration list for PBXProject "iOS Scaffold" */ = {
 			isa = XCConfigurationList;
